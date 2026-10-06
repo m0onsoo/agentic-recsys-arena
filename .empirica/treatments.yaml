@@ -1,0 +1,10 @@
+factors:
+  - desc: Number of participants in an independent evaluator session.
+    name: playerCount
+    values:
+      - value: 1
+treatments:
+  - desc: Single-participant setup check. Research scenarios are not configured.
+    factors:
+      playerCount: 1
+    name: Solo

@@ -1,0 +1,4 @@
+lobbies:
+  - name: Default individual
+    kind: individual
+    duration: 5m
