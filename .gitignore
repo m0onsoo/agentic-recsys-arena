@@ -16,3 +16,9 @@ data/
 artifacts/
 .env
 .env.*
+
+# Local model registry: keep its directory layout, never publish checkpoints or study data.
+/model_registry/*.json
+/model_registry/*.gz
+/model_registry/*/*
+!/model_registry/*/.gitkeep
